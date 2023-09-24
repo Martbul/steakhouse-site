@@ -1,0 +1,22 @@
+<main>
+  <h1>Create</h1>
+  <div class="form">
+    <form action="/cubes/create" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" />
+      <label for="name">Description</label>
+      <textarea id="name" name="description"></textarea>
+      <label for="image">Image</label>
+      <input type="text" id="image" name="imageUrl" />
+      <label for="difficulty">Doneness</label>
+      <select id="difficulty" name="difficultyLevel">
+        <option value="1">Rare</option>
+        <option value="2">Medium-Rare</option>
+        <option value="3">Medium</option>
+        <option value="4">Medium-Well</option>
+        <option value="5">Well</option>
+      </select>
+      <input type="submit" value="Create" />
+    </form>
+  </div>
+</main>
